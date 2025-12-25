@@ -11,7 +11,8 @@ const SearchBox = ({ handleSetData }) => {
   const [error, setError] = useState(false);
 
   const API_URL = "http://api.openweathermap.org/data/2.5/weather";
-  const API_KEY = "9c92049098cbafecf33071189a5d2004";
+  const API_KEY = import.meta.env.VITE_API_KEY;
+
 
   const getWeatherInfo = async (city) => {
     const response = await fetch(
