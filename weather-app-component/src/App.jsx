@@ -1,13 +1,13 @@
 
-import './App.css'
+// import './App.css'
 
-import MaterialUI from './MaterialUI'
+import WeatherApp from "./WeatherComps/WeatherApp"
 
 function App() {
 
   return (
     <>
-       <MaterialUI/>
+       <WeatherApp/>
     </>
   )
 }

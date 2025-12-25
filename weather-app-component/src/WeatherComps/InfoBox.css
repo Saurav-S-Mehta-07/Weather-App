@@ -1,0 +1,28 @@
+.InfoBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+}
+
+.Cards{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 15px 15px 120px lightblue;
+    border-radius: 20px;
+    width: 50%;
+    height: fit-content;
+
+}
+
+.Card{
+    box-shadow: 15px 15px 120px lightblue;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    width: 40%;
+    height: fit-content;
+}
