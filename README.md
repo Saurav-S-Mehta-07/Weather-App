@@ -17,7 +17,6 @@ A modern **React.js weather application** that allows users to search for weathe
 
 - **React.js**
 - **HTML & CSS**
-- **JavaScript**
 - Weather API (e.g., OpenWeatherMap)
 
 ---
@@ -28,7 +27,7 @@ A modern **React.js weather application** that allows users to search for weathe
 
 ```bash
 git clone https://github.com/Saurav-S-Mehta-07/Weather-App.git
-cd Weather-App
+cd weather-app-component
 ```
 
 ## Install Dependencies
@@ -52,5 +51,6 @@ Create a .env file at the project root:
 ```
  REACT_APP_WEATHER_API_KEY=YOUR_API_KEY_HERE
 ```
+
 
 
